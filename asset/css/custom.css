@@ -1,0 +1,19 @@
+.navbar-inverse .navbar-toggle {
+	color: grey;
+	font-weight: bold;
+	border-color: grey;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: grey;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
